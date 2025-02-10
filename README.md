@@ -32,8 +32,8 @@ Clone the repository:  git clone https://github.com/timdvd/yourmeal_landing.git
 ![Screenshot 2025-02-10 222048](https://github.com/user-attachments/assets/5f9fdefc-5c82-472b-9a63-ca20aaaf143d)
 
 ### Mobile Version
-![Screenshot 2025-02-10 222410](https://github.com/user-attachments/assets/c6551fde-ee47-42ae-9671-71aba20ca671)
-![Screenshot 2025-02-10 222427](https://github.com/user-attachments/assets/911921ef-a493-4923-8d2e-395d7c6f2ebe)
+![Screenshot 2025-02-10 222410](https://github.com/user-attachments/assets/c6551fde-ee47-42ae-9671-71aba20ca671) _
+![Screenshot 2025-02-10 222427](https://github.com/user-attachments/assets/911921ef-a493-4923-8d2e-395d7c6f2ebe) _
 ![Screenshot 2025-02-10 222438](https://github.com/user-attachments/assets/0b138dad-5fc6-4218-94ff-da6aaa37a94c)
 ![Screenshot 2025-02-10 222452](https://github.com/user-attachments/assets/4192b695-1f1f-4e6a-8e7f-1728eced7d78)
 ![Screenshot 2025-02-10 222508](https://github.com/user-attachments/assets/bedd18b2-e6e0-4093-835f-66a7a2f64db0)
