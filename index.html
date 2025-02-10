@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>YourMeal</title>
+</head>
+<body>
+    <!-- main-page -->
+    <div class="main-page">
+
+        <!-- header -->
+        <header class="header">
+            <div class="banner">
+                <a href="#" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="banner-image">
+                    <img src="images/g10.png" alt="">
+                </div>
+                <div class="banner-text">
+                    <h1>Только самые <br/>
+                        <span>сочные бургеры!</span></h1>
+                    <h4>Бесплатная доставка от <span>599₽</span></h4>
+                </div>
+                <div class="banner-bg"></div>
+            </div>
+        </header>
+        <!-- header ends -->
+
+        <!-- categories -->
+        <section class="categories">
+            <!-- category block -->
+            <a data-set="all" class="category-block"  onclick="filterProduct('all')">
+                <img src="images/icon7.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Все</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="burgers" class="category-block"  onclick="filterProduct('burgers')">
+                <img src="images/icon1.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Бургеры</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="dinner" class="category-block" onclick="filterProduct('dinner')">
+                <img src="images/icon2.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Закуски</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="hot-dogs" class="category-block" onclick="filterProduct('hot-dogs')">
+                <img src="images/icon3.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Хот-доги</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="combo" class="category-block" onclick="filterProduct('combo')">
+                <img src="images/icon4.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Комбо</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="cebab" class="category-block" onclick="filterProduct('cebab')">
+                <img src="images/icon5.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Шаурма</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="pizza" class="category-block"  onclick="filterProduct('pizza')">
+                <img src="images/icon6.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Пицца</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="deserts" class="category-block"  onclick="filterProduct('deserts')">
+                <img src="images/icon8.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Десерты</h4>
+            </a>
+            <!-- category block -->
+            <a data-set="sauces" class="category-block"  onclick="filterProduct('sauces')">
+                <img src="images/icon9.png" alt="icon1" class="category-img">
+                <h4 class="category-name">Соусы</h4>
+            </a>
+        </section>
+        <!-- categories end -->
+
+        <!-- products -->
+        <section class="products" id="products">
+            <div class="card">
+                <div class="card-container">
+                    <div class="card-header">
+                        <h3>Корзина</h3>
+                        <div class="card-counter">
+                            <p class="counter-num">0</p>
+                        </div>
+                    </div>
+                    <div class="card-empty">
+                        <p>Тут пока пусто :(</p>
+                    </div>
+                    <div class="card-full hide">
+                        <div class="card-items">
+
+                        </div>
+                        <div class="card-total">
+                            <p>Итого</p>
+                            <p class="card-total-p"></p>
+                        </div>
+                        <a href="#" class="card-btn" onclick="modalDelivery()">Оформить заказ</a>
+                        <div class="card-delivery">
+                            <div class="del">
+                                <img src="images/delivery.png" alt="" class="card-delivery-img">
+                                <p>Бесплатная доставка</p>
+                            </div>
+                            <div class="hide-btn">
+                                <a class="hide-full">Свернуть</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-container">
+                <!-- card -->
+                <h2 class="products-heading">Бургеры</h2>
+                <!-- products -->
+                <div class="product-container">
+                    <!-- container form products from script.js -->
+                </div>
+            </div>
+        </section>
+        <!-- products end -->
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <div class="footer-company">
+                        <a href="#" class="footer-logo">
+                            <img src="images/footer-logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-right-phone">
+                        <h3>Номер для заказа</h3>
+                        <h4><i class="fa-solid fa-phone"></i> +7(930)833-38-11</h4>
+                    </div>
+                    <div class="footer-right-social">
+                        <h3>Мы в соцсетях</h3>
+                        <ul>
+                            <li><img src="images/vk.png" alt=""></li>
+                            <li><img src="images/tg.png" alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer ends -->
+    </div>
+    <!-- modal -->
+    <div class="modal">
+    </div>
+    <!-- modal ends -->
+
+    <!-- modal -->
+    <div class="modal_delivery">
+        <div class="modal-overlay">
+        </div>
+        <div class="modal-delivery-container">
+            <a class="close" ><i class="fa-solid fa-xmark" onclick="closeDeliveryModal()"></i></a>
+            <div class="modal-delivery-content">
+                <div class="modal-delivery-left">
+                    <img src="images/del.png" alt="">
+                </div>
+                <div class="modal-delivery-right">
+                    <h3>Доставка</h3>
+                    <div class="form-group">
+                        <form class="delivery-form">
+                            <input type="text" name="name" placeholder="Ваше имя">
+                            <input type="tel" name="phone" placeholder="Телефон">
+
+                            <div class="del-radios">
+                                <div class="form-del-radio">
+                                    <input type="radio" name="del" id="self" class="del-radio" onchange="check()" checked/>
+                                    <label class="role" for="self">Самовывоз</label>
+                                </div>
+                                <div class="form-del-radio">
+                                    <input type="radio" name="del" id="del" class="del-radio" onchange="check()"/>
+                                    <label class="role" for="del">Доставка</label>
+                                </div>
+                            </div>
+
+                            <div class="address-form-group">
+                                <input type="text" name="address" placeholder="Улица, дом, квартира">
+                                <div class="address-form-group-row">
+                                    <input type="text" name="floor" placeholder="Этаж">
+                                    <input type="text" name="floor" placeholder="Этаж">
+                                </div>
+                            </div>
+
+                            <a class="delivery-btn">Оформить</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- modal ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
