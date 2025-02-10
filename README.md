@@ -17,6 +17,10 @@
 ### Installation
 Clone the repository:  git clone https://github.com/timdvd/yourmeal_landing.git  
 
+### Preview:
+https://timdvd.github.io/yourmeal_landing/
+
+
 ## Screenshots: 
 ### Desktop Version
 ![Screenshot 2025-02-10 221718](https://github.com/user-attachments/assets/8d2d4810-a6ac-40a4-91f5-1fc5b5892786)
