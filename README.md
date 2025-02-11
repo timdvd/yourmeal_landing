@@ -36,13 +36,14 @@ https://timdvd.github.io/yourmeal_landing/
 ![Screenshot 2025-02-10 222048](https://github.com/user-attachments/assets/5f9fdefc-5c82-472b-9a63-ca20aaaf143d)
 
 ### Mobile Version
-![Screenshot 2025-02-10 222410](https://github.com/user-attachments/assets/c6551fde-ee47-42ae-9671-71aba20ca671) _
-![Screenshot 2025-02-10 222427](https://github.com/user-attachments/assets/911921ef-a493-4923-8d2e-395d7c6f2ebe) _
-![Screenshot 2025-02-10 222438](https://github.com/user-attachments/assets/0b138dad-5fc6-4218-94ff-da6aaa37a94c)
-![Screenshot 2025-02-10 222452](https://github.com/user-attachments/assets/4192b695-1f1f-4e6a-8e7f-1728eced7d78)
-![Screenshot 2025-02-10 222508](https://github.com/user-attachments/assets/bedd18b2-e6e0-4093-835f-66a7a2f64db0)
-![Screenshot 2025-02-10 222524](https://github.com/user-attachments/assets/f7759150-a68e-449b-8918-4fc28059daae)
-![Screenshot 2025-02-10 222143](https://github.com/user-attachments/assets/341470bd-d49c-433c-bda6-2e49e96c487e)
-![Screenshot 2025-02-10 222542](https://github.com/user-attachments/assets/86dedd33-7664-4a2c-964f-a75ab21f45a1)
-![Screenshot 2025-02-10 222555](https://github.com/user-attachments/assets/a7a09615-72fe-4dbd-8d43-35ee6ceb83ff)
+![1](https://github.com/user-attachments/assets/35acbc51-8623-4651-a692-ad6880663d88)
+![2](https://github.com/user-attachments/assets/69e46fcb-df16-4e3a-a7fc-8e6dac8f3bb6)
+![3](https://github.com/user-attachments/assets/68e1ca09-cd8c-41d6-8f38-073ec495432a)
+![4](https://github.com/user-attachments/assets/31cfae4b-5bf4-41f8-a154-6170ed65b635)
+![5](https://github.com/user-attachments/assets/691d4b68-2368-47f9-ac34-b12e882d276d)
+![6](https://github.com/user-attachments/assets/7444e27c-e7cd-42a7-bcad-a2af4b333163)
+![7](https://github.com/user-attachments/assets/ba6537e9-4e7d-4e22-99ff-1e7e684efb9b)
+![8](https://github.com/user-attachments/assets/afe85449-2893-4718-b230-1fdc9d509abc)
+![9](https://github.com/user-attachments/assets/b2da5af6-5970-42a7-95c2-ac6b7df43193)
+
 
