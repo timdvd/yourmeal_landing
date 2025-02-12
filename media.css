@@ -412,7 +412,8 @@
         margin: 0 auto;
     }
     .card{
-        width: 100%;
-        max-width: 100%;
+        width: 90%;
+        left: 5%;
+        max-width: 90%;
     }   
 }
