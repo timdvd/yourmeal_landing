@@ -398,7 +398,7 @@
 
 @media screen and (max-width: 380px){
     .product-container {
-        grid-template-columns: repeat(1, 280px);
+        grid-template-columns: repeat(1, 100%);
         grid-gap: 10px;
     }
     .footer-right{
@@ -411,4 +411,8 @@
         width: 80%;
         margin: 0 auto;
     }
+    .card{
+        width: 100%;
+        max-width: 100%;
+    }   
 }
