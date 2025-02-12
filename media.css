@@ -330,7 +330,7 @@
 @media screen and (max-width: 520px){
     .products h2{
         left: 50%;
-        transform: translate(-50%, 00%);
+        transform: translate(-50%, -20%);
     }
     .product-container {
         grid-template-columns: repeat(1, 300px);
