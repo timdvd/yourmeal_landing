@@ -331,6 +331,9 @@
     .products h2{
         left: 50%;
         transform: translate(-50%, -20%);
+        text-align: center;
+        width: 100%;
+        display: block;
     }
     .product-container {
         grid-template-columns: repeat(1, 300px);
